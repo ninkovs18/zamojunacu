@@ -5,14 +5,14 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  overflow-y: auto;
 }
 
 .song {
   visibility: hidden;
 }
-
 .container {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -47,6 +47,11 @@ body {
 
 .profile-picture {
   width: 400;
+  height: 600;
+}
+
+.four {
+  margin: 0;
 }
 
 .four .text-box {
@@ -266,7 +271,9 @@ body {
   .container {
     width: 90%;
   }
-
+  .cetvrti {
+    font-size: 2.5rem;
+  }
   .four .text-box {
     width: 90%;
   }
@@ -286,7 +293,7 @@ body {
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 5rem;
   }
 
   .six .hat {

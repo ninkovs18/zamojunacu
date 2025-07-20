@@ -157,7 +157,7 @@ const animationTimeline = () => {
       {
         scale: 0.2,
         opacity: 0,
-        y: -150,
+        y: 0,
       },
       "+=1"
     )
