@@ -241,27 +241,14 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-height: 1000px) {
-  .six .hat {
-    left: 40%;
-  }
-}
 
-@media screen and (max-height: 800px) {
+@media screen and (max-width: 1200px) {
   .six .hat {
-    left: 37%;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .six .hat {
-    left: 32%;
-  }
-}
-
-@media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
-    left: 32%;
+    left: 43.4%;
+    position: absolute;
+    /* transform: scale(0.1); */
+    top: -32%;
+    width: 80px;
   }
 }
 
